@@ -1,0 +1,16 @@
+$kind: http-request
+description: Second product - needed so GET all shows at least two products.
+url: http://localhost:3000/products
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "name": "Wireless Mouse",
+      "category": "Accessories",
+      "price": 18.99,
+      "quantity": 50
+    }
+order: 2000

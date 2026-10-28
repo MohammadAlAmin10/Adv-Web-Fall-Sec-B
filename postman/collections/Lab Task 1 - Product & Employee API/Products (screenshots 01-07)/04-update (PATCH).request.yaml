@@ -1,0 +1,14 @@
+$kind: http-request
+description: "Screenshot: 04-update.png. Assumes a fresh table so IDs are 1 and 2. If your IDs differ, change the number in the URL."
+url: http://localhost:3000/products/1
+method: PATCH
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "price": 799,
+      "quantity": 9
+    }
+order: 5000

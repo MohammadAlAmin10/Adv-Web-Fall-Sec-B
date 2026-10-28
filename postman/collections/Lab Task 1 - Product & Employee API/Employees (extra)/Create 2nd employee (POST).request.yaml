@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://localhost:3000/employees
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "name": "Karim Hossain",
+      "email": "karim@shop.com",
+      "phone": "01898765432",
+      "password": "dummy456",
+      "age": 35,
+      "yearsOfWorking": 10
+    }
+order: 2000

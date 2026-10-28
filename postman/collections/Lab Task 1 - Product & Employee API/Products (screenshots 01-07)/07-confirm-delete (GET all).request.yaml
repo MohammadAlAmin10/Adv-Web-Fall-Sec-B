@@ -1,0 +1,5 @@
+$kind: http-request
+description: "Screenshot: 07-confirm-delete.png"
+url: http://localhost:3000/products
+method: GET
+order: 8000

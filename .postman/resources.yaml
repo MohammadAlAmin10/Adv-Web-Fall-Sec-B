@@ -2,6 +2,10 @@
 workspace:
   id: 0f475981-7df7-4e53-8aee-8a916658a642
 
+cloudResources:
+  collections:
+    ../postman/collections/Lab Task 1 - Product & Employee API: ffd9465b-9c33-4c44-bbbc-1cc608c9935b
+
 # All resources in the `postman/` folder are automatically registered in Local View.
 # Point to additional files outside the `postman/` folder to register them individually. Example:
 #localResources:

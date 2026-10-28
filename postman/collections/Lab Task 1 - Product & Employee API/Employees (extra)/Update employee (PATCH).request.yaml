@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:3000/employees/1
+method: PATCH
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "age": 30,
+      "yearsOfWorking": 5
+    }
+order: 5000

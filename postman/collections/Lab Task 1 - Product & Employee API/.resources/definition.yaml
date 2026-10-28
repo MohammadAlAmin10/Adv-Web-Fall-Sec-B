@@ -1,0 +1,2 @@
+$kind: collection
+description: Import, start the NestJS app (pnpm start:dev), then send the requests in order.

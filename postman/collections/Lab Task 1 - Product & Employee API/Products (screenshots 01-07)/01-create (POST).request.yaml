@@ -1,0 +1,16 @@
+$kind: http-request
+description: "Screenshot: 01-create.png"
+url: http://localhost:3000/products
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "name": "Laptop",
+      "category": "Electronics",
+      "price": 850.5,
+      "quantity": 12
+    }
+order: 1000

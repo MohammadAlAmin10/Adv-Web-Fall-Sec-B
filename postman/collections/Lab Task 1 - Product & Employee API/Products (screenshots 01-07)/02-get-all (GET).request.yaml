@@ -1,0 +1,5 @@
+$kind: http-request
+description: "Screenshot: 02-get-all.png"
+url: http://localhost:3000/products
+method: GET
+order: 3000
